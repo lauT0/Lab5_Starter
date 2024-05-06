@@ -91,7 +91,7 @@ test('invalid hex len', () => {
 });
 
 test('invalid hex symbols', () => {
-  expect(isHexColor("#123_fs")).toBe(true);
+  expect(isHexColor("#123_fs")).toBe(false);
 });
 
 
